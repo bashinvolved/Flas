@@ -1,0 +1,251 @@
+
+
+.foot{
+  margin-top: 0px;
+  box-sizing: border-box;
+  padding: 43px 315px 43px 315px;
+  color: white;
+  width: 100%;
+  height: 290px;
+  border-radius: 50px 50px 0px 0px;
+  background-color: #161c24;
+}
+
+.foot_line {
+  opacity: 9%;
+  width: 1290px;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.foot__graybut {
+  border-radius: 58px;
+  background-color: #42484e;
+  border: none;
+  width: 205px;
+  height: 35px;
+  font-size: 16px;
+  font-family: Golos Text;
+  padding: 12px 16px 16px 12px;
+  padding-bottom: 30px;
+  /* ПРИМЕРНЫЕ ЗНАЧЕНИЯ Я ХЗ КАК ЭТО РАБОТАЕТ */
+  color: white;
+}
+
+.foot__graybut:hover {
+  background-color: white;
+  color: #161c24;
+}
+
+.foot__graybut:hover .foot_hrefs {
+  color: #161c24;
+}
+
+.start_black_foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot__years {
+  text-align: center;
+
+  font-family: Golos Text;
+  color: #f4f6f8;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.foot__SKAI {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot__SKAITEXT {
+}
+
+.foot__SKAIBIIG {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+}
+
+.foot__Prokat {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.foot__rightSKAI {
+  margin-top: 11px;
+  display: flex;
+  gap: 8px;
+}
+
+.foot__Everyday {
+  opacity: 60%;
+  font-family: Golos Text;
+  font-size: 14px;
+}
+
+.foot__Shosse {
+  font-family: Golos Text;
+  font-size: 16px;
+}
+
+.foot__Map {
+  font-family: Golos Text;
+  font-size: 14px;
+  text-decoration: none;
+  color: #bdccf7;
+}
+
+.Prokat__container {
+  position: relative;
+  width: 100%;
+}
+
+.text_absolute {
+  padding: 52px;
+  border-radius: 30px;
+  width: 834px;
+  height: 519px;
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  top: 170px;
+  left: 315px;
+}
+
+.Prokat__Prokat {
+  margin: 0px;
+  font-family: "Onest", sans-serif;
+  font-weight: 700;
+  font-size: 41px;
+}
+
+.Prokat__ProkatMain {
+  font-size: 20.8px;
+  font-family: "Golos Text", sans-serif;
+  text-align: justify;
+}
+
+.bluetext {
+  color: blue;
+}
+
+.Free {
+  height: 406px;
+  background-color: #f4f6f8;
+  padding: 120px 315px 120px 315px;
+}
+
+.Free__Consult2 {
+  height: 200px;
+  width: 1290px;
+  background-color: white;
+  border-radius: 20px;
+  height: 356px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Free__UnderConsult1 {
+  width: 700px;
+  padding: 35px;
+}
+
+.Free__GetFree {
+  font-size: 48px;
+  font-family: Golos Text;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Free__LeaveMessage {
+  margin-top: 16px;
+  font-family: Golos Text;
+  font-size: 18px;
+}
+
+.Free__UnderConsult2 {
+  margin-top: 35px;
+  margin-right: 35px;
+  background-color: #f4f6f8;
+  width: 342px;
+  height: 232px;
+  padding: 24px;
+  border-radius: 20px;
+}
+
+.Free__Input {
+  width: 500px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.Free__SendBut {
+  background-color: #5b7dde;
+  padding: 18px 62px;
+  border-radius: 10px;
+  border: none;
+  font-family: Golos Text;
+  color: white;
+  margin-left: 16px;
+}
+
+.Free__danger_text {
+  color: #81817f;
+  font-family: Golos Text;
+  font-size: 15px;
+}
+
+.Free__Telega {
+  margin-top: 20px;
+  width: 294px;
+  height: 66px;
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #229ed9;
+}
+
+.Free__WhatssUp {
+  margin-top: 20px;
+  width: 294px;
+  height: 66px;
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #08b419;
+}
+
+.foot_hrefs {
+  text-decoration: none;
+  color: white;
+}
+
+.Free_ORWRITE {
+  font-family: Golos Text;
+}
+
+@media screen and (max-width: 1700px) {
+  .Prokat__Prokat {
+    font-size: 20px;
+  }
+  .Prokat__ProkatMain {
+    font-size: 15px;
+  }
+  .Prokat__container {
+      height: 30px;
+  }
+  .text_absolute{
+      padding: 10px;
+  }
+}
+
