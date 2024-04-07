@@ -16,6 +16,11 @@ def form_sample():
         database.commit()
         return "Форма отправлена"
 
+@app.route('/database')
+def database():
+    database = sqlite3.connect("base.sqlite")
+    numbers = database.cursor().execute(f"SELECT email FROM email")
+    return render_template("table.html", numbers=numbers)
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
